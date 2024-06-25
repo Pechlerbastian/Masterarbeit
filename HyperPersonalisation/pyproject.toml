@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "DeepLearningGPU"
+version = "0.1.0"
+description = "DeepLearningGPU shell via devshell"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+torch = { version = "^1.13"}
+transformers = "^4.21.1"
+torchaudio = { version = "^0.13" }
+torchvision = { version = "^0.14" }
+pytorch-lightning = "^1.6"
+scikit-learn = "^1.1.1"
+pandas = "^1.4.3"
+seaborn = "^0.11.2"
+"pyannote.audio" = "^2.0.1"
+dvc = "^2.17.0"
+einops = ">=0.3"
+spacy = "^3.4.1"
+xgboost = "^1.6.1"
+lightgbm = "^3.3.2"
+opensmile = "^2.4.1"
+rich = "^12.6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
