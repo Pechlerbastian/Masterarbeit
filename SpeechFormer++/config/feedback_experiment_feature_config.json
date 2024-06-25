@@ -1,0 +1,22 @@
+{   
+    "num_classes": 1,
+
+    "evaluate": ["mse", "mae", "rmse"],
+
+    "meta_csv_file": "/data/eihw-gpu1/pechleba/SpeechFormer/SpeechFormer2/metadata/metadata_",
+ 
+    "hubert12_updated": {
+        "feature_dim": 1024, 
+        "lmdb_root": "/data/eihw-gpu1/pechleba/SpeechFormer/SpeechFormer2/metadata/",
+        "matdir": "/data/eihw-gpu2/pechleba/ParaSpeChaD/FeedbackExperiment/FeedbackExperiment/wav/",
+        "matkey": "hubert", 
+        "length": 224,
+        "adapter_config": "./SpeechFormer++/configadapter_config.json",
+        "pad_value": 0,
+        "frame": 0.025,
+        "hop": 0.02,
+        "adapter_meta_csv_file": "/data/eihw-gpu2/pechleba/ParaSpeChaD/metadata/merged_file_fixed.csv"
+    }
+
+
+}

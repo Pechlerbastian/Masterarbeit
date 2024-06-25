@@ -1,0 +1,22 @@
+{   
+    "num_classes": 1,
+
+    "evaluate": ["mse", "mae", "rmse"],
+
+    "meta_csv_file": "/data/eihw-gpu2/pechleba/masterarbeit/ema_metadata_answer/metadata_",
+ 
+
+    "hubert12_updated": {
+        "feature_dim": 1024, 
+        "lmdb_root": "/data/eihw-gpu2/pechleba/masterarbeit/ema_metadata_all/",
+        "matdir": "/data/eihw-gpu2/pechleba/ParaSpeChaD/EMA/",
+        "adapter_config": "/data/eihw-gpu2/pechleba/ParaSpeChaD/metadata/adapter_config_3.json",
+        "matkey": "hubert",
+        "length": 326,
+        "pad_value": 0,
+        "adapter_meta_csv_file": "/data/eihw-gpu2/pechleba/ParaSpeChaD/metadata/merged_file_fixed.csv",
+
+        "frame": 0.025,
+        "hop": 0.02
+  }
+}
